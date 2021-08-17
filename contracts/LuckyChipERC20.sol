@@ -7,7 +7,7 @@ contract LuckyChipERC20 is ILuckyChipERC20 {
     using SafeMath for uint;
 
     string public constant name = 'LuckyChip LPs';
-    string public constant symbol = 'HSW-LP';
+    string public constant symbol = 'LC-LP';
     uint8 public constant decimals = 18;
     uint  public totalSupply;
     mapping(address => uint) public balanceOf;
